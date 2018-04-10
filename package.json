@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-init-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maciej Sikora",
+  "license": "MIT",
+  "scripts": {
+    "watch": "webpack --watch --mode=development",
+    "start": "webpack-dev-server --hot --inline --open --mode=development"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
