@@ -9,6 +9,52 @@
   <script src="build.js"></script>
 </head>
 <body>
-  <p id="start-info">Hello in LaIT init project. It is your start point.</p>
+  <p id="start-info">This is a table with list of posts.</p>
+
+  <!-- <div class="control box">
+    <div class="comments-div">any comment</div>
+    <button class="button show-hide" data-show="false">Show comments</button>
+  </div> -->
+  
+
+
+  <table class="table is-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Author</th>
+        <th colspan="2">Title</th>
+      </tr>
+    </thead>
+    <tbody>
+     
+    </tbody>
+
+
+    <div class="field box" style="width: 30%">
+            
+      <div class="field">
+        <label class="label">Author</label>
+        <div class="control">
+          <input class="input" type="text" name="author" id="input-author" placeholder="Your Nickname">
+          <label for="author" style="color:red"></label>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Title</label>
+        <div class="control">
+          <input class="input" type="text" name="title" id="input-title" placeholder="Title of Post">
+        </div>
+      </div>
+
+      <div class="control">
+        <button class="button button-add is-primary" type="submit">Add</button>
+      </div>
+
+    </div>
+
+  </table>
+  
 </body>
 </html>

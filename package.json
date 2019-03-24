@@ -2,7 +2,7 @@
   "name": "post-name",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Maciej Sikora",
+  "author": "Piotr Wilk",
   "license": "MIT",
   "scripts": {
     "watch": "webpack --watch --mode=development",
@@ -16,5 +16,11 @@
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.11",
     "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.6.2",
+    "jquery": "^3.3.1",
+    "superagent": "^3.8.2"
   }
 }
